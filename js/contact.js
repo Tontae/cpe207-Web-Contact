@@ -23,9 +23,9 @@ function saveBookmark(e) {
 
   console.log(bookmark);
 
-  // // local storage test
-  //   localStorage.setItem('bookmarks',JSON.stringify(bookmark));
-  //   console.log(JSON.parse(localStorage.getItem('bookmarks')));
+  // local storage test
+  // localStorage.setItem('bookmarks',JSON.stringify(bookmark));
+  // console.log(JSON.parse(localStorage.getItem('bookmarks')));
 
   if (localStorage.getItem('bookmarks') === null) {
     var bookmarks = [];
