@@ -80,8 +80,8 @@ function fetchBookmarks() {
         + `<div class="card-header"><h5 class="my-0">${name}</h5></div>`
         + `<div class="card-body" style="width: 200px">`
         + `<div><p>${message}</p></div><br>`
-        + `<a class="btn btn-primary" target="_blank" href="${url}">Visit</a>`
-        + ` <a onclick="deleteBookmark('${url}')" class="btn btn-danger" href="#">Delete</a>`
+        + `<a class="primary_btn" target="_blank" href="${url}">Visit</a>`
+        + ` <a onclick="deleteBookmark('${url}')" class="primary_btn tr-bg" href="#">Delete</a>`
         + `</div></div></div>`;
   }
   str += '</div>'
