@@ -84,19 +84,18 @@
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="#">(+66)889168192</a></h6>
+                            <h6><a>(+66)889168192</a></h6>
                             <p>Mon to Fri 9 am to 6 pm</p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
-                            <h6><a href="#">dullayathit@gmail.com</a></h6>
+                            <h6><a>dullayathit@gmail.com</a></h6>
                             <p>Send us your query anytime!</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
-                        novalidate="novalidate">
+                    <form class="row contact_form" action="" id="contactForm" novalidate="novalidate">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" name="name"
@@ -107,8 +106,7 @@
                                     placeholder="Enter email address">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject"
-                                    placeholder="Enter Subject">
+                                <input type="text" class="form-control" id="url" name="url" placeholder="Enter URL">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -118,13 +116,25 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="primary_btn">
-                                <span>Send Message</span>
+                            <button class="primary_btn" type="submit">
+                                <span>Submit</span>
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="bookmarksResults">
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div> 
+            
+            <!-- /container -->
             <div class="mapBox">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7554.036846071884!2d98.9502844!3d18.7973323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c728e2876b2505c!2zRmFjdWx0eSBvZiBFbmdpbmVlcmluZywgQ2hpYW5nIE1haSBVbml2ZXJzaXR5IC0g4LiE4LiT4Liw4Lin4Li04Lio4Lin4LiB4Lij4Lij4Lih4Lio4Liy4Liq4LiV4Lij4LmMIOC4oeC4q-C4suC4p-C4tOC4l-C4ouC4suC4peC4seC4ouC5gOC4iuC4teC4ouC4h-C5g-C4q-C4oeC5iA!5e0!3m2!1sen!2sth!4v1553325688958"
@@ -172,7 +182,6 @@
     <!--================End Footer Area =================-->
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -184,10 +193,8 @@
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
