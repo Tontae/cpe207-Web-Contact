@@ -78,7 +78,7 @@ function fetchBookmarks() {
     str += '<div class="col-sm-6 col-md-4 col-lg-3">' 
         + `<div class="card mb-4 shadow-sm">`
         + `<div class="card-header"><h5 class="my-0">${name}</h5></div>`
-        + `<div class="card-body" style="width: 200px">`
+        + `<div class="card-body" style="width: 400px">`
         + `<div><p>${message}</p></div><br>`
         + `<a class="primary_btn" target="_blank" href="${url}"><span>Visit</span></a>`
         + ` <a onclick="deleteBookmark('${url}')" class="primary_btn tr-bg" href="#"><span>Delete</span></a>`
